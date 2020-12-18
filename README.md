@@ -1,17 +1,18 @@
-# dev-academy-2021 exercise - Name Application
+# Dependencies
 
-Your task is to implement a name application. The application should have an user interface. The user interface can be either a web application or an api. (It can even contain both if you have enough time and enthusiasm.) 
+-   Node.js
+-   React
+-   json-server
+-   axios
 
-The user interface should provide at least the first one of the following requirements, but again, you’re allowed to implement them all.
-1. List names and amounts, order by amount, most popular first
-2. List names in alphabetical order
-3. Return the total amount of all the names
-4. Return the amount of the name given as a parameter
+# Installation
 
-The data for the application is stored in a json file ([names.json](https://github.com/solita/dev-academy-2020/blob/main/names.json)). The material contains the top-10 of both male and female names in Solita. You can use the json file directly as your data source or you can store the data in a database if you wish.
+To run the json-server, simply run "node src/Server.js" in the root folder and make sure you have "names.json" installed. After, do an npm install and either "npm start" or "npm build" and then "serve -s build -p 3000" to launch the application in the localhost address.
 
-Technologies which are used in the projects in Solita are, for example, Java, Kotlin, Clojure, TypeScript, C#, React, Angular, Vue.js, and Node.js. You can choose some of those or use your favorite technologies.
+# Uninstallation
 
-GitHub is a good choice for version control. You can attach the repository link to your dev academy application.
+To uninstall, simply delete the application folder.
 
-Be prepared to present your implementation of the name application in the possible interview. We would like to see how the application works and discuss together the technology choices you’ve made.
+# Notes
+
+For now the application is simple enough to live in the console and all the functionality is there, however I will likely implement a full web UI at a later point.
